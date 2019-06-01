@@ -36,13 +36,13 @@ const particleOpt = {
 export default class Banner extends Component {
   render () {
     return (
-      <Row className='banner' type='flex' align='middle'>
+      <Row className='banner' type='flex' align='middle' style={{ minHeight: '60vh', position: 'relative' }}>
         <Particles params={particleOpt} className='ant-col-xs-24 particles' />
         <Col xs={24} sm={12} lg={8}>
           <img src={MathSvg} alt='maths-illustration' width='70%' />
         </Col>
         <Col xs={24} sm={12} lg={8}>
-          <Title>
+          <Title style={{ color: '#096dd9', textAlign: 'center' }}>
             Hi, I'm Joël<br />
             I'm a French Engineer Student<br />
             &<br />
