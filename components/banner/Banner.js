@@ -38,7 +38,7 @@ export default class Banner extends Component {
     return (
       <Row className='banner' type='flex' align='middle' style={{ minHeight: '60vh', position: 'relative' }}>
         <Particles params={particleOpt} className='ant-col-xs-24 particles' />
-        <Col xs={24} sm={12} lg={8}>
+        <Col xs={24} sm={12} lg={8} style={{ textAlign: 'center' }}>
           <img src={MathSvg} alt='maths-illustration' width='70%' />
         </Col>
         <Col xs={24} sm={12} lg={8}>
@@ -49,7 +49,7 @@ export default class Banner extends Component {
             a Full-Stack Developer
           </Title>
         </Col>
-        <Col xs={0} lg={8}>
+        <Col xs={0} lg={8} style={{ textAlign: 'center' }} >
           <img src={CodeSvg} alt='developer-illustration' width='80%' />
         </Col>
       </Row>

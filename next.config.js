@@ -9,7 +9,8 @@ module.exports = () => {
       javascriptEnabled: true,
       modifyVars: {
         'layout-body-background': '#fff',
-        'layout-header-background': '#fff'
+        'layout-header-background': '#fff',
+        'layout-footer-background': '#262626'
       }
     }
   }))

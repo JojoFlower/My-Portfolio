@@ -1,9 +1,20 @@
 .skills-content {
-    .ant-col {
+    >.ant-col {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-        img {
+        .img-science {
             -webkit-animation: rotateY 5s infinite;
             animation: rotateY 5s infinite;
+        }
+        .illustrations {
+            -webkit-animation: rotateReverseZ 5s infinite linear;
+            animation: rotateReverseZ 5s infinite linear;
+            img[alt^="react-illustration"],
+            img[alt^="redux-illustration"],
+            img[alt^="ubuntu-illustration"],
+            img[alt^="python-illustration"] {
+                -webkit-animation: rotateZ 2.5s infinite linear;
+                animation: rotateZ 1s infinite linear;
+            }
         }
     }
 }
@@ -15,5 +26,25 @@
     100% {
     -webkit-transform: rotateY(360deg);
             transform: rotateY(360deg);
+    }
+}
+@keyframes rotateZ {
+    0% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+    }
+    100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+    }
+}
+@keyframes rotateReverseZ {
+    0% {
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
+    }
+    100% {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
     }
 }
