@@ -17,7 +17,7 @@ export default class Skills extends Component {
       <>
         <Row type='flex' align='middle' style={{ marginTop: 32 }}>
           <Col xs={24}>
-            <Title level={2} style={{ textAlign: 'center', color: '#91d5ff' }}underline>
+            <Title level={2} style={{ textAlign: 'center', color: '#91d5ff' }} underline>
             Skills
             </Title>
           </Col>

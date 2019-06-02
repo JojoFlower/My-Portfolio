@@ -1,4 +1,5 @@
 .banner { 
+    animation: BounceBanner 2s 0s ease-in-out; 
     .particles {
         position: absolute;
         top: 0px;
@@ -9,4 +10,11 @@
             font-size: 32px;
         }
     }
+}
+@keyframes BounceBanner{
+    0%{ transform: translateX(2000px);}
+    20%{ transform: translateX(2000px);}
+    50%{ transform: translateX(-300px);} 
+    75%{ transform: translateX(150px);}
+    100%{ transform: translateX(0px);} 
 }

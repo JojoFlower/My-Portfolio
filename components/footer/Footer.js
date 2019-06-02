@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import { Layout, Icon, Row, Col, Typography } from 'antd'
 import './style.less'
 

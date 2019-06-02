@@ -6,7 +6,7 @@ const { Title } = Typography
 const Card = props =>
   <Col xs={22} md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 * (props.nb % 2) }} style={
     { marginTop: 32, minHeight: 312, borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <img src={props.src} alt={props.projectName} style={{ maxHeight: 400 }} />
+    <img src={props.src} alt={props.projectName} style={{ maxHeight: 400, width: '100%' }} />
     <Row style={{ position: 'absolute' }}>
       <Col xs={24}>
         <Title level={3} style={{ textAlign: 'center', color: '#262626' }}>{props.projectName}</Title>

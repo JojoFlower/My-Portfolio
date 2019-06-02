@@ -1,3 +1,11 @@
 .ant-layout-header {
     box-shadow: 0 2px 8px #f0f1f2;
+    animation: BounceHeader 2s 0s ease-in-out; 
+}
+@keyframes BounceHeader{
+    0%{ transform: translateX(-2000px);}
+    20%{ transform: translateX(-2000px);}
+    50%{ transform: translateX(300px);} 
+    75%{ transform: translateX(-150px);}
+    100%{ transform: translateX(0px);} 
 }
