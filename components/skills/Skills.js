@@ -32,7 +32,7 @@ export default class Skills extends Component {
             </Paragraph>
           </Col>
           <Col xs={22} md={{ span: 10, offset: 1 }} xxl={{ span: 8, offset: 2 }} style={{ padding: 10, borderRadius: 16 }}>
-            <img src='../../static/mathematics-illustration.jpg' className='img-science' style={{ width: '100%' }} alt='science-illustration' />
+            <img src='https://raw.githubusercontent.com/JojoFlower/My-Portfolio/master/static/mathematics-illustration.jpg' className='img-science' style={{ width: '100%' }} alt='science-illustration' />
           </Col>
         </Row>
         <Row type='flex' align='middle' justify='center' className='skills-content' style={{ marginTop: 32 }}>
@@ -77,7 +77,7 @@ export default class Skills extends Component {
             <Paragraph style={{ fontSize: 18 }}>
               As a computer enthusiast a little geeky on the edges,
               I sometimes code stuff just for fun, alone in my cave XD<br /><br />
-              But I also know how to work as a team to contribute to the success of projects with major challenges.
+              But I also know how to work in a team to contribute to the success of projects with major challenges.
             </Paragraph>
           </Col>
         </Row>

@@ -5,6 +5,7 @@ module.exports = () => {
     require.extensions['.less'] = file => {}
   }
   return withImages(withLess({
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/My-Portfolio/' : '',
     lessLoaderOptions: {
       javascriptEnabled: true,
       modifyVars: {
