@@ -77,7 +77,7 @@ export default class Skills extends Component {
             <Paragraph style={{ fontSize: 18 }}>
               As a computer enthusiast a little geeky on the edges,
               I sometimes code stuff just for fun, alone in my cave XD<br /><br />
-              But I also know how to work as a team to contribute to the success of project with major challenges.
+              But I also know how to work as a team to contribute to the success of projects with major challenges.
             </Paragraph>
           </Col>
         </Row>

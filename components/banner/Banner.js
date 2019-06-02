@@ -46,7 +46,7 @@ export default class Banner extends Component {
             Hi, I'm Joël<br />
             I'm a French Engineer Student<br />
             &<br />
-            a Full-Stack Developer
+            a Development Enthusiast
           </Title>
         </Col>
         <Col xs={0} lg={8} style={{ textAlign: 'center' }} >
