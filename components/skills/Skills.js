@@ -1,9 +1,9 @@
 import { Component } from 'react'
 import { Row, Col, Typography } from 'antd'
 import ReactSvg from '../../static/react.svg'
-import ReduxSvg from '../../static/redux.svg'
 import JavaScriptSvg from '../../static/javascript.svg'
 import DjangoSvg from '../../static/django.svg'
+import PyTorch from '../../static/pytorch.png'
 import TensorFlowSvg from '../../static/tensorflow.svg'
 import PythonSvg from '../../static/python.svg'
 import UbuntuSvg from '../../static/ubuntu.svg'
@@ -25,7 +25,7 @@ export default class Skills extends Component {
         <Row type='flex' align='middle' justify='center' className='skills-content' style={{ marginTop: 24 }}>
           <Col xs={22} md={10} xxl={8} style={{ padding: 40, borderRadius: 16, marginBottom: 16 }}>
             <Paragraph style={{ fontSize: 18 }}>
-            As an engineering student from a top-tier French "Grandes Écoles",<br /><br />
+            As an engineer graduated from a top-tier French "Grandes Écoles",<br /><br />
             I followed a high-level training in fundamental and applied sciences, as well as more transversal disciplines such as project management, economics or corporate law.<br /><br />
             These multidisciplinary skills allow me to solve complex problems.<br /><br />
             My final year specialization is in Machine Learning, Mathematics & Robotics.
@@ -59,7 +59,7 @@ export default class Skills extends Component {
                 </Row>
                 <Row>
                   <Col xs={12}>
-                    <img src={ReduxSvg} alt='redux-illustration' style={{ width: 60 }} />
+                    <img src={PyTorch} alt='redux-illustration' style={{ width: 53 }} />
                   </Col>
                   <Col xs={12}>
                     <img src={PythonSvg} alt='python-illustration' style={{ width: 60 }} />
@@ -76,7 +76,7 @@ export default class Skills extends Component {
           <Col xs={{ span: 22, order: 1 }} md={{ span: 10, order: 2, offset: 1 }} xxl={{ span: 8, offset: 2 }} style={{ padding: 40, borderRadius: 16, marginBottom: 16 }}>
             <Paragraph style={{ fontSize: 18 }}>
               As a computer enthusiast a little geeky on the edges,
-              I sometimes code stuff just for fun, alone in my cave XD<br /><br />
+              I sometimes code stuff alone just for fun.<br /><br />
               But I also know how to work in a team to contribute to the success of projects with major challenges.
             </Paragraph>
           </Col>

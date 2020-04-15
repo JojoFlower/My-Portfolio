@@ -24,7 +24,7 @@ export default class FooterComponent extends Component {
         </Row>
         <Row type='flex' justify='center'>
           <Col xs={24}>
-            <Title level={4} style={{ color: '#fff', textAlign: 'center', marginTop: 16, fontSize: 16 }}>Joël Nguesson ©2019</Title>
+            <Title level={4} style={{ color: '#fff', textAlign: 'center', marginTop: 16, fontSize: 16 }}>Joël Nguesson ©2020</Title>
           </Col>
         </Row>
       </Footer>

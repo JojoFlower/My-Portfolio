@@ -44,9 +44,9 @@ export default class Banner extends Component {
         <Col xs={24} sm={12} lg={8}>
           <Title style={{ color: '#096dd9', textAlign: 'center' }}>
             Hi, I'm Joël<br />
-            I'm an Engineer Student<br />
+            I'm a Data Scientist<br />
             &<br />
-            a Development Enthusiast
+            Full-Stack Developer
           </Title>
         </Col>
         <Col xs={0} lg={8} style={{ textAlign: 'center' }} >
