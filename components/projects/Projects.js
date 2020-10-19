@@ -49,7 +49,7 @@ export default class Projects extends Component {
             <Card
               nb={3}
               projectName='Connected Keychain'
-              src='https://www.elektor.fr/media/catalog/product/cache/5cf0cd67d985c5a2729a2007397294b6/e/s/esp32-devkitc.jpg'
+              src='https://miro.medium.com/max/842/1*2BLFfiQAvSs75kvL0nZzfg.jpeg'
               url='https://github.com/JojoFlower/ConnectedKeychain' />
           </Row>
         </>
